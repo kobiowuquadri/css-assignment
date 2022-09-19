@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="../all_css/contact.css">
+</head>
+
+<body class="body">
+    <h1>This Is Our Contact Page</h1>
+    <form action="mailto: kobiowuq@gmail.com" enctype="text/plain" method="POST">
+        <!-- user_name -->
+        <p>
+            <label for="user_name">Name</label>
+            <input type="text" name="user_name" id="user_name" required>
+
+        </p>
+        <!-- user_email -->
+        <p>
+            <label for="user_email">Email</label>
+            <input type="email" name="user_email" id="user_email" required>
+        </p>
+
+        <!-- user_phone_no  -->
+        <p>
+            <label for="user_phone_no">Phone Number</label>
+            <input type="tel" name="user_phone_no" id="user_phone_no">
+        </p>
+        <!-- Gender -->
+        <p>
+
+            <label for="gender">Gender</label> <br>
+            <input type="radio" name="sex" id="male">
+            <label for="male">Male</label><br>
+            <input type="radio" name="sex" id="female">
+            <label for="female">Female</label><br>
+            <input type="radio" name="sex" id="not_saying">
+            <label for="not_saying">Not Saying</label>
+        </p>
+        <!-- Checkbox  -->
+        <p>
+            <label for="question">Do you want to sign up for the Email List?</label><br>
+            <input type="checkbox" name="yes" id="yes">
+            <label for="yes">Yes</label>
+        </p>
+        <!-- Favorite Car -->
+        <p>
+            <label for="favorite-car">Favorite Car:</label><br>
+            <select>
+                <option value="BMW">BMW</option>
+                <option value="Ford">Ford</option>
+                <option value="ferrari">Ferrari</option>
+                <option value="benz">Benz</option>
+            </select>
+        </p>
+        <!-- Enter Yours messages -->
+        <p>
+            <textarea name="text" id="text" cols="30" rows="10">Enter your messages here...</textarea>
+        </p>
+        <!-- Submit button -->
+        <p>
+
+            <button type="submit">Submit</button>
+        </p>
+    </form>
+
+
+</body>
+
+</html>
